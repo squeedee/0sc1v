@@ -1,0 +1,485 @@
+EESchema Schematic File Version 4
+LIBS:Fadaha-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 3
+Title "01v Fader Adaptor. 'Fadaha' or 'Yamader' ?"
+Date "2019-02-07"
+Rev "0.1"
+Comp "Rasheed Abdul-Aziz"
+Comment1 "CC BY-SA"
+Comment2 "Creative Commons Share-Alike Attribution"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1450 2300 1800 2300
+$Comp
+L 74xx_IEEE:74125 U?
+U 2 1 5C5CFCCD
+P 4750 2550
+AR Path="/5C5CFCCD" Ref="U?"  Part="2" 
+AR Path="/5C5CF856/5C5CFCCD" Ref="U2"  Part="2" 
+F 0 "U2" H 4750 2250 50  0000 C CNN
+F 1 "74125" H 4750 2150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4750 2550 50  0001 C CNN
+F 3 "" H 4750 2550 50  0001 C CNN
+	2    4750 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 3 1 5C5CFCD4
+P 3550 3150
+AR Path="/5C5CFCD4" Ref="U?"  Part="3" 
+AR Path="/5C5CF856/5C5CFCD4" Ref="U2"  Part="3" 
+F 0 "U2" H 3550 3550 50  0000 C CNN
+F 1 "74125" H 3550 3450 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3550 3150 50  0001 C CNN
+F 3 "" H 3550 3150 50  0001 C CNN
+	3    3550 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 4 1 5C5CFCDB
+P 4750 3650
+AR Path="/5C5CFCDB" Ref="U?"  Part="4" 
+AR Path="/5C5CF856/5C5CFCDB" Ref="U2"  Part="4" 
+F 0 "U2" H 4750 3350 50  0000 C CNN
+F 1 "74125" H 4750 3250 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4750 3650 50  0001 C CNN
+F 3 "" H 4750 3650 50  0001 C CNN
+	4    4750 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 1 1 5C5CFCE2
+P 3550 2050
+AR Path="/5C5CFCE2" Ref="U?"  Part="1" 
+AR Path="/5C5CF856/5C5CFCE2" Ref="U2"  Part="1" 
+F 0 "U2" H 3550 2450 50  0000 C CNN
+F 1 "74125" H 3550 2350 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3550 2050 50  0001 C CNN
+F 3 "" H 3550 2050 50  0001 C CNN
+	1    3550 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C5CFCE9
+P 1800 2700
+AR Path="/5C5CFCE9" Ref="#PWR?"  Part="1" 
+AR Path="/5C5CF856/5C5CFCE9" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 1800 2450 50  0001 C CNN
+F 1 "GND" H 1805 2527 50  0000 C CNN
+F 2 "" H 1800 2700 50  0001 C CNN
+F 3 "" H 1800 2700 50  0001 C CNN
+	1    1800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2300 1800 2700
+$Comp
+L 74xx_IEEE:74125 U?
+U 2 1 5C5CFCF0
+P 4750 4750
+AR Path="/5C5CFCF0" Ref="U?"  Part="2" 
+AR Path="/5C5CF856/5C5CFCF0" Ref="U3"  Part="2" 
+F 0 "U3" H 4750 4450 50  0000 C CNN
+F 1 "74125" H 4750 4350 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4750 4750 50  0001 C CNN
+F 3 "" H 4750 4750 50  0001 C CNN
+	2    4750 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 3 1 5C5CFCF7
+P 3550 5350
+AR Path="/5C5CFCF7" Ref="U?"  Part="3" 
+AR Path="/5C5CF856/5C5CFCF7" Ref="U3"  Part="3" 
+F 0 "U3" H 3550 5750 50  0000 C CNN
+F 1 "74125" H 3550 5650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3550 5350 50  0001 C CNN
+F 3 "" H 3550 5350 50  0001 C CNN
+	3    3550 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 4 1 5C5CFCFE
+P 4800 5850
+AR Path="/5C5CFCFE" Ref="U?"  Part="4" 
+AR Path="/5C5CF856/5C5CFCFE" Ref="U3"  Part="4" 
+F 0 "U3" H 4800 5550 50  0000 C CNN
+F 1 "74125" H 4800 5450 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4800 5850 50  0001 C CNN
+F 3 "" H 4800 5850 50  0001 C CNN
+	4    4800 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 1 1 5C5CFD05
+P 3550 4250
+AR Path="/5C5CFD05" Ref="U?"  Part="1" 
+AR Path="/5C5CF856/5C5CFD05" Ref="U3"  Part="1" 
+F 0 "U3" H 3550 4650 50  0000 C CNN
+F 1 "74125" H 3550 4550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3550 4250 50  0001 C CNN
+F 3 "" H 3550 4250 50  0001 C CNN
+	1    3550 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5850 2100 5850
+Wire Wire Line
+	3050 5350 2200 5350
+Wire Wire Line
+	4250 4750 2300 4750
+Wire Wire Line
+	3050 4250 2400 4250
+Wire Wire Line
+	4250 3650 2500 3650
+Wire Wire Line
+	3050 3150 2600 3150
+Wire Wire Line
+	2600 1600 1450 1600
+Wire Wire Line
+	4250 2550 2700 2550
+Wire Wire Line
+	2700 1500 1450 1500
+Wire Wire Line
+	3050 2050 2800 2050
+Wire Wire Line
+	2800 1400 1450 1400
+$Comp
+L power:GND #PWR0103
+U 1 1 5C5D08CA
+P 4750 6650
+F 0 "#PWR0103" H 4750 6400 50  0001 C CNN
+F 1 "GND" H 4755 6477 50  0000 C CNN
+F 2 "" H 4750 6650 50  0001 C CNN
+F 3 "" H 4750 6650 50  0001 C CNN
+	1    4750 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5250 4150 5250
+Wire Wire Line
+	4150 5250 4150 6400
+Wire Wire Line
+	4050 4150 4150 4150
+Wire Wire Line
+	4150 4150 4150 5250
+Connection ~ 4150 5250
+Wire Wire Line
+	4050 3050 4150 3050
+Wire Wire Line
+	4150 3050 4150 4150
+Connection ~ 4150 4150
+Wire Wire Line
+	4050 1950 4150 1950
+Wire Wire Line
+	4150 1950 4150 3050
+Connection ~ 4150 3050
+Wire Wire Line
+	5250 2450 5400 2450
+Wire Wire Line
+	5400 2450 5400 3550
+Wire Wire Line
+	5250 3550 5400 3550
+Connection ~ 5400 3550
+Wire Wire Line
+	5400 3550 5400 4650
+Wire Wire Line
+	5250 4650 5400 4650
+Connection ~ 5400 4650
+Wire Wire Line
+	5400 4650 5400 5750
+Wire Wire Line
+	5300 5750 5400 5750
+Connection ~ 5400 5750
+Wire Wire Line
+	5400 5750 5400 6400
+Text HLabel 5700 2150 2    50   Input ~ 10
+M0_A
+Text HLabel 5700 2650 2    50   Input ~ 10
+M0_B
+Text HLabel 5700 3250 2    50   Input ~ 10
+M1_A
+Text HLabel 5700 3750 2    50   Input ~ 10
+M1_B
+Text HLabel 5700 5450 2    50   Input ~ 10
+M3_A
+Text HLabel 5700 5950 2    50   Input ~ 10
+M3_B
+Text HLabel 5700 4350 2    50   Input ~ 10
+M2_A
+Wire Wire Line
+	4050 2150 5700 2150
+Wire Wire Line
+	5700 2650 5250 2650
+Wire Wire Line
+	2500 3650 2500 1700
+Wire Wire Line
+	2600 3150 2600 1600
+Wire Wire Line
+	2700 2550 2700 1500
+Wire Wire Line
+	2800 2050 2800 1400
+Wire Wire Line
+	4050 3250 5700 3250
+Wire Wire Line
+	5250 3750 5700 3750
+Wire Wire Line
+	4050 4350 5700 4350
+Wire Wire Line
+	5250 4850 5700 4850
+Wire Wire Line
+	4050 5450 5700 5450
+Wire Wire Line
+	5300 5950 5700 5950
+Text HLabel 5700 4850 2    50   Input ~ 10
+M2_B
+Wire Wire Line
+	4150 6400 4750 6400
+Wire Wire Line
+	4750 6650 4750 6400
+Connection ~ 4750 6400
+$Comp
+L 74xx_IEEE:74125 U?
+U 2 1 5C5F2131
+P 8900 1500
+AR Path="/5C5F2131" Ref="U?"  Part="2" 
+AR Path="/5C5CF856/5C5F2131" Ref="U4"  Part="2" 
+F 0 "U4" H 8900 1200 50  0000 C CNN
+F 1 "74125" H 8900 1100 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8900 1500 50  0001 C CNN
+F 3 "" H 8900 1500 50  0001 C CNN
+	2    8900 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 3 1 5C5F2138
+P 7700 2100
+AR Path="/5C5F2138" Ref="U?"  Part="3" 
+AR Path="/5C5CF856/5C5F2138" Ref="U4"  Part="3" 
+F 0 "U4" H 7700 2500 50  0000 C CNN
+F 1 "74125" H 7700 2400 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7700 2100 50  0001 C CNN
+F 3 "" H 7700 2100 50  0001 C CNN
+	3    7700 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 4 1 5C5F213F
+P 8900 2600
+AR Path="/5C5F213F" Ref="U?"  Part="4" 
+AR Path="/5C5CF856/5C5F213F" Ref="U4"  Part="4" 
+F 0 "U4" H 8900 2300 50  0000 C CNN
+F 1 "74125" H 8900 2200 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8900 2600 50  0001 C CNN
+F 3 "" H 8900 2600 50  0001 C CNN
+	4    8900 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 1 1 5C5F2146
+P 7700 1000
+AR Path="/5C5F2146" Ref="U?"  Part="1" 
+AR Path="/5C5CF856/5C5F2146" Ref="U4"  Part="1" 
+F 0 "U4" H 7700 1400 50  0000 C CNN
+F 1 "74125" H 7700 1300 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7700 1000 50  0001 C CNN
+F 3 "" H 7700 1000 50  0001 C CNN
+	1    7700 1000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2000 8300 2000
+Wire Wire Line
+	8200 900  8300 900 
+Wire Wire Line
+	8300 900  8300 2000
+Connection ~ 8300 2000
+Wire Wire Line
+	8200 1100 9900 1100
+Wire Wire Line
+	8200 2200 9900 2200
+Wire Wire Line
+	8400 2600 6300 2600
+Wire Wire Line
+	6300 2600 6300 1300
+Wire Wire Line
+	6300 1300 1450 1300
+Wire Wire Line
+	7200 2100 6400 2100
+Wire Wire Line
+	6400 2100 6400 1200
+Wire Wire Line
+	6400 1200 1450 1200
+Wire Wire Line
+	8400 1500 6500 1500
+Wire Wire Line
+	6500 1500 6500 1100
+Wire Wire Line
+	6500 1100 1450 1100
+Wire Wire Line
+	4750 6400 5400 6400
+Wire Wire Line
+	8300 2000 8300 3150
+Wire Wire Line
+	9400 1400 9500 1400
+Wire Wire Line
+	9500 1400 9500 2500
+Wire Wire Line
+	9400 2500 9500 2500
+Connection ~ 9500 2500
+Wire Wire Line
+	8300 3150 8900 3150
+Wire Wire Line
+	9500 2500 9500 3150
+$Comp
+L power:GND #PWR0104
+U 1 1 5C5FEB2A
+P 8900 3300
+F 0 "#PWR0104" H 8900 3050 50  0001 C CNN
+F 1 "GND" H 8905 3127 50  0000 C CNN
+F 2 "" H 8900 3300 50  0001 C CNN
+F 3 "" H 8900 3300 50  0001 C CNN
+	1    8900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3150 8900 3300
+Connection ~ 8900 3150
+Wire Wire Line
+	8900 3150 9500 3150
+Text HLabel 9900 1100 2    50   Input ~ 10
+BANK0
+Text HLabel 9900 1600 2    50   Input ~ 10
+BANK1
+Text HLabel 9900 2200 2    50   Input ~ 10
+BANK2
+Text HLabel 9900 2700 2    50   Input ~ 10
+BANK3
+Wire Wire Line
+	9400 2700 9900 2700
+Wire Wire Line
+	9400 1600 9900 1600
+$Comp
+L 74xx_IEEE:74125 U?
+U 2 1 5C605984
+P 7700 4900
+AR Path="/5C605984" Ref="U?"  Part="2" 
+AR Path="/5C5CF856/5C605984" Ref="U5"  Part="2" 
+F 0 "U5" H 7700 4600 50  0000 C CNN
+F 1 "74125" H 7700 4500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7700 4900 50  0001 C CNN
+F 3 "" H 7700 4900 50  0001 C CNN
+	2    7700 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74125 U?
+U 1 1 5C605999
+P 7700 4250
+AR Path="/5C605999" Ref="U?"  Part="1" 
+AR Path="/5C5CF856/5C605999" Ref="U5"  Part="1" 
+F 0 "U5" H 7700 4650 50  0000 C CNN
+F 1 "74125" H 7700 4550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7700 4250 50  0001 C CNN
+F 3 "" H 7700 4250 50  0001 C CNN
+	1    7700 4250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4150 8850 4150
+$Comp
+L power:GND #PWR0105
+U 1 1 5C622E9E
+P 8850 5400
+F 0 "#PWR0105" H 8850 5150 50  0001 C CNN
+F 1 "GND" H 8855 5227 50  0000 C CNN
+F 2 "" H 8850 5400 50  0001 C CNN
+F 3 "" H 8850 5400 50  0001 C CNN
+	1    8850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4250 6150 4250
+Wire Wire Line
+	6150 7100 1950 7100
+Text HLabel 8450 4350 2    50   Input ~ 10
+_RESET
+Wire Wire Line
+	8200 4350 8450 4350
+$Comp
+L power:VCC #PWR0106
+U 1 1 5C64AB50
+P 9700 4050
+F 0 "#PWR0106" H 9700 3900 50  0001 C CNN
+F 1 "VCC" H 9717 4223 50  0000 C CNN
+F 2 "" H 9700 4050 50  0001 C CNN
+F 3 "" H 9700 4050 50  0001 C CNN
+	1    9700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4800 9700 4800
+NoConn ~ 7200 4900
+Wire Wire Line
+	8200 5000 8850 5000
+Wire Wire Line
+	8850 4150 8850 5000
+Connection ~ 8850 5000
+Wire Wire Line
+	8850 5000 8850 5400
+Wire Wire Line
+	6150 4250 6150 7100
+$Comp
+L Connector_Generic:Conn_01x14 CN003
+U 1 1 5C5FF242
+P 1250 1600
+F 0 "CN003" H 1170 2417 50  0000 C CNN
+F 1 "14 pin header" H 1170 2326 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1250 1600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2200 1950 2200
+Wire Wire Line
+	1950 2200 1950 7100
+Wire Wire Line
+	2100 5850 2100 2100
+Wire Wire Line
+	2100 2100 1450 2100
+Wire Wire Line
+	2200 5350 2200 2000
+Wire Wire Line
+	2200 2000 1450 2000
+Wire Wire Line
+	2300 4750 2300 1900
+Wire Wire Line
+	2300 1900 1450 1900
+Wire Wire Line
+	2400 4250 2400 1800
+Wire Wire Line
+	2400 1800 1450 1800
+Wire Wire Line
+	2500 1700 1450 1700
+Wire Wire Line
+	1450 1000 7200 1000
+Wire Wire Line
+	9700 4050 9700 4800
+$EndSCHEMATC
