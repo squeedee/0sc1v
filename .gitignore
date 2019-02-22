@@ -1,3 +1,6 @@
+.pioenvs
+.vscode
+
 # Prerequisites
 *.d
 
