@@ -14,6 +14,15 @@ void setup() {
   Motors::Setup();
 }
 
+int braking[16] = { 
+	0,0,0,0,
+	0,0,0,0,
+	0,0,0,0,
+	0,0,0,0
+};
+
+const int BRAKE_TIME = 5;
+
 void loop() {
 	int f;
 	int faders[16];
@@ -26,13 +35,21 @@ void loop() {
 		Serial.println(buffer);
 	}
 
-  if (faders[14] > 512) {
-		Motors::Set(BANK0,UP,STOP,STOP,STOP);
-    Serial.println("up");
-  } else {
-		Motors::Set(BANK0,DOWN,STOP,STOP,STOP);
-    Serial.println("down");
-  }
+	int target = faders[14];
 
-	delay(250);
+  if (faders[0] > target + 27) {
+		Motors::Set(BANK0,DOWN,STOP,STOP,STOP);
+		braking[0] = BRAKE_TIME;
+  } else if (faders[0] < target - 27) {
+		Motors::Set(BANK0,UP,STOP,STOP,STOP);
+		braking[0] = BRAKE_TIME;
+  } else {
+		if (braking[0]-- > 0) {
+			Motors::Set(BANK0,BRAKE,STOP,STOP,STOP);	
+		} else {
+			Motors::Set(BANK0,STOP,STOP,STOP,STOP);
+		}
+	}
+
+	// delay(250);
 }

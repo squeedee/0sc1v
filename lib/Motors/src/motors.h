@@ -24,9 +24,9 @@ namespace Motors {
     const int RESET = 8;
 
     const int STOP = B00;
-    const int UP = B10;
-    const int DOWN = B01;
-    const int BREAK = B11;
+    const int UP = B01;
+    const int DOWN = B10;
+    const int BRAKE = B11;
 
 	void Setup();
     void Set(int bank, int m0, int m1, int m2, int m3);
