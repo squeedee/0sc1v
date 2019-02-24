@@ -1,23 +1,17 @@
 #include <Arduino.h>
 #include "faders.h"
+#include "motors.h"
 #include "stdlib.h"
 
-// lookup is [(b)ank][(f)ader]:  n = b*3 + f
-//uint *fader[3][3] = {
-//  { 0,0,0,0 },
-//  { 0,0,0,0 },
-//  { 0,0,0,0 },
-//  { 0,0,0,0 }
-//}
-
 using namespace Faders;
+using namespace Motors;
 
 void setup() {
 	Serial.begin(38400);
 	analogReference(EXTERNAL);
 
 	Faders::Setup();
-	Faders::SetBank(0);
+  Motors::Setup();
 }
 
 void loop() {
@@ -31,6 +25,14 @@ void loop() {
 		sprintf(buffer, "%u: %u", f, faders[f]);
 		Serial.println(buffer);
 	}
+
+  if (faders[14] > 512) {
+		Motors::Set(BANK0,UP,STOP,STOP,STOP);
+    Serial.println("up");
+  } else {
+		Motors::Set(BANK0,DOWN,STOP,STOP,STOP);
+    Serial.println("down");
+  }
 
 	delay(250);
 }
